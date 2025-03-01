@@ -41,9 +41,9 @@ void Student::setAverageGrade(double averageGrade) {
 
 // Method to display student information
 void Student::displayInfo() const {
-    std::cout << "Student Information:" << std::endl;
-    std::cout << "First Name: " << firstName << std::endl;
+    std::cout << "Student information:" << std::endl;
+    std::cout << " Name: " << firstName << std::endl;
     std::cout << "Last Name: " << lastName << std::endl;
-    std::cout << "Student ID: " << id << std::endl;
+    std::cout << "studetn id: " << id << std::endl;
     std::cout << "Average Grade: " << averageGrade << std::endl;
 }
