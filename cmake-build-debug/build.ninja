@@ -61,6 +61,12 @@ build CMakeFiles/univesity1.dir/Student.cpp.obj: CXX_COMPILER__univesity1_unscan
   OBJECT_DIR = CMakeFiles\univesity1.dir
   OBJECT_FILE_DIR = CMakeFiles\univesity1.dir
 
+build CMakeFiles/univesity1.dir/Course.cpp.obj: CXX_COMPILER__univesity1_unscanned_Debug E$:/OOP$ 2025/univesity1/Course.cpp || cmake_object_order_depends_target_univesity1
+  DEP_FILE = CMakeFiles\univesity1.dir\Course.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\univesity1.dir
+  OBJECT_FILE_DIR = CMakeFiles\univesity1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target univesity1
@@ -69,7 +75,7 @@ build CMakeFiles/univesity1.dir/Student.cpp.obj: CXX_COMPILER__univesity1_unscan
 #############################################
 # Link the executable univesity1.exe
 
-build univesity1.exe: CXX_EXECUTABLE_LINKER__univesity1_Debug CMakeFiles/univesity1.dir/main.cpp.obj CMakeFiles/univesity1.dir/Student.cpp.obj
+build univesity1.exe: CXX_EXECUTABLE_LINKER__univesity1_Debug CMakeFiles/univesity1.dir/main.cpp.obj CMakeFiles/univesity1.dir/Student.cpp.obj CMakeFiles/univesity1.dir/Course.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\univesity1.dir
